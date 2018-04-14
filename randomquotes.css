@@ -1,0 +1,67 @@
+@media (max-width: 640px) {
+  #jumbo {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    padding-top: 50px !important;
+  }
+
+  #getQuote {
+    font-size: 18px !important;
+  }
+
+  body {
+    background-position: center !important;
+  }
+}
+
+body {
+  /*background: url("https://bit.ly/2c111ot") no-repeat  fixed; */
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#getQuote {
+  font-size: 25px;
+}
+
+#getSource {
+  font-size: 10px;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  /*word-wrap: break-word;*/
+}
+
+#source {
+  font-size: 10px;
+  position: relative;
+  bottom: 0;
+  left: 0;
+}
+
+#pushme {
+  position: relative;
+  bottom:0;
+}
+
+#jumbo {
+  opacity: 0.9;
+  /*margin-top: 100px;*/
+  width: 50%;
+  border: 1px solid grey;
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#counter {
+  position: absolute;
+  bottom:0px;
+}
